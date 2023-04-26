@@ -1,0 +1,17 @@
+Autor: Stalin Riofrio
+## Dependencias Instaladas
+
+"devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^16.0.3",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^12.9.0",
+    "esbuild": "^0.17.16"
+  },
+
+## Proceso Ejecucion 
+
+1. In the Terminal we enter the command "npm run cypress:runner" as specified in the package.json
+2. When the cypress window opens we select the option "E2E Testing"
+3. We select the Google Chrome browser and click on "Start E2E Testing in Chrome"
+4. The project opens in the google browser showing the list of specifications
+5. Selecting login.feature starts running the automated test.
